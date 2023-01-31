@@ -1,0 +1,34 @@
+.tableHeader{
+    color: grey;
+}
+.tableBody{
+    height: 45px;
+    border: none;
+}
+.tableBody:hover{
+    background-color: rgb(218, 218, 218);
+}
+.td{
+    height: 28px;
+    border: none;
+    /* font-family: SuisseIntlLight; */
+    font-size:16px;
+}
+.tableBold{
+    font-weight: bold;
+}
+
+.filterButton{
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+.filterIcon{
+    height: 20px;
+    margin-right: 5px;
+}
+.filterContainer{
+    display: flex;
+    justify-content: space-between;
+
+}

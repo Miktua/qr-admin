@@ -1,0 +1,36 @@
+.bg{
+    background-color: rgba(0,0,0,0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 20px;
+    background-color: white;
+    border-radius: 13px;
+}
+.btnFlex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    background-color: transparent;
+    color: #5D96D8;
+    padding: 0;
+    align-self: center;
+    border: none;
+    margin:0;
+    margin-left: 30px;
+}
+.btn:hover{
+    background-color: transparent;
+    color: black;
+    text-decoration: underline;
+    border: none;
+    }

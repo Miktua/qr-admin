@@ -1,0 +1,24 @@
+.filterButton{
+    display: inline-flex;
+    align-items: center;
+    color: grey;
+    margin-bottom: 20px;
+}
+.filterIcon{
+    height: 20px;
+    margin-right: 5px;
+}
+.filterContainer{
+  margin-top: 20px;
+
+}
+.filterRow{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid grey;
+}
+.xlsButton{
+    margin-top: auto;
+    margin-bottom: auto;
+}

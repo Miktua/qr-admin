@@ -1,0 +1,22 @@
+.appGrid{
+    display: grid;
+    grid-template-areas: 
+    'layout header'
+    'layout main'
+    ;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: max-content 1fr;
+    min-height: 100vh;
+}
+.layout{
+    grid-area: layout;
+}
+.main{
+    grid-area: main;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+.header{
+    grid-area: header;
+}
