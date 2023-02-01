@@ -34,6 +34,7 @@ function App() {
   // console.log('token: ', token)
 
   useEffect(() => {
+    console.log('p:',process.env.REACT_APP_IP)
     setAuthToken(localStorage.token)
     if(localStorage.token){
       dispatch(getAllBundles());
